@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Parameterization Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.219">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="1.015" classname="testNgLearning.TestParameterization" />
+                <testcase name="loginTest" time="0.828" classname="testNgLearning.TestParameterization" />
+                <testcase name="loginTest" time="0.313" classname="testNgLearning.TestParameterization" />
+                <testcase name="loginTest" time="0.422" classname="testNgLearning.TestParameterization" />
+                <testcase name="loginTest" time="0.547" classname="testNgLearning.TestParameterization" />
+                <testcase name="loginTest" time="1.094" classname="testNgLearning.TestParameterization" />
+      
+</testsuite>

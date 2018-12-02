@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Native Test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="0.000">
+  <properties />
+            <testcase name="startTime" time="0.000" classname="testNgLearning.NativeTest">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;port&apos; is required by BeforeClass on method startTime but has not been marked @Optional or defined
+in C:\Users\phild\IdeaProjects\AppiumTesting\src\test\resources\runner\testng.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'port' is required by BeforeClass on method startTime but has not been marked @Optional or defined
+in C:\Users\phild\IdeaProjects\AppiumTesting\src\test\resources\runner\testng.xml
+  org.testng.internal.Parameters.createParams(Parameters.java:290)
+  org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+  org.testng.internal.Parameters.createParameters(Parameters.java:620)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+  org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:748)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="testNgLearning.NativeTest">
+          <skipped />
+    </testcase>
+            <testcase name="testcase" time="0.0" classname="testNgLearning.NativeTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
