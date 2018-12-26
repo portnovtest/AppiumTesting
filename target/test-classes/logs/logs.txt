@@ -1,4 +1,207 @@
-2018-12-26 22:37:58:090 [Appium] Welcome to Appium v1.10.0
-2018-12-26 22:37:58:091 [Appium] Non-default server args:
-2018-12-26 22:37:58:091 [Appium]   logFile: C:\Users\phild\IdeaProjects\AppiumTesting\src\test\resources\logs\logs.txt
-2018-12-26 22:37:58:105 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2018-12-26 23:31:36:744 [Appium] Welcome to Appium v1.10.0
+2018-12-26 23:31:36:745 [Appium] Non-default server args:
+2018-12-26 23:31:36:745 [Appium]   logFile: C:\Users\phild\IdeaProjects\AppiumTesting\src\test\resources\logs\logs.txt
+2018-12-26 23:31:36:761 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-12-26 23:31:36:851 [HTTP] --> GET /wd/hub/status
+2018-12-26 23:31:36:851 [HTTP] {}
+2018-12-26 23:31:36:853 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-26 23:31:36:854 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+2018-12-26 23:31:36:858 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2018-12-26 23:31:36:858 [HTTP] 
+2018-12-26 23:31:37:939 [HTTP] --> POST /wd/hub/session
+2018-12-26 23:31:37:939 [HTTP] {"desiredCapabilities":{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","platformName":"Android","deviceName":"Galaxy S9+"},"capabilities":{"alwaysMatch":{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"Galaxy S9+","platformName":"android"},"firstMatch":[{}]}}
+2018-12-26 23:31:37:939 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","platformName":"Android","deviceName":"Galaxy S9+"},null,{"alwaysMatch":{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:deviceName":"Galaxy S9+","platformName":"android"},"firstMatch":[{}]}]
+2018-12-26 23:31:37:940 [BaseDriver] Event 'newSessionRequested' logged at 1545867097940 (15:31:37 GMT-0800 (Pacific Standard Time))
+2018-12-26 23:31:37:945 [Appium] Creating new AndroidDriver (v4.7.0) session
+2018-12-26 23:31:37:945 [Appium] Capabilities:
+2018-12-26 23:31:37:945 [Appium]   platformName: android
+2018-12-26 23:31:37:945 [Appium]   appActivity: .HomeScreenActivity
+2018-12-26 23:31:37:945 [Appium]   appPackage: io.selendroid.testapp
+2018-12-26 23:31:37:945 [Appium]   deviceName: Galaxy S9+
+2018-12-26 23:31:37:948 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":".HomeScreen... were provided
+2018-12-26 23:31:37:948 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-12-26 23:31:37:953 [BaseDriver] Session created with session id: b698738c-3d82-42af-a1c5-9df92a9ca8d0
+2018-12-26 23:31:38:045 [AndroidDriver] Java version is: 1.8.0_191
+2018-12-26 23:31:38:047 [ADB] Checking whether adb is present
+2018-12-26 23:31:38:051 [ADB] Found 6 'build-tools' folders under 'C:\Users\phild\AppData\Local\Android\sdk\' (newest first):
+2018-12-26 23:31:38:051 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/28.0.3
+2018-12-26 23:31:38:051 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/28.0.0-rc1
+2018-12-26 23:31:38:052 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/27.0.3
+2018-12-26 23:31:38:052 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/26.0.2
+2018-12-26 23:31:38:052 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/26.0.0
+2018-12-26 23:31:38:052 [ADB]     C:/Users/phild/AppData/Local/Android/sdk/build-tools/25.0.1
+2018-12-26 23:31:38:052 [ADB] Using adb.exe from C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe
+2018-12-26 23:31:38:053 [AndroidDriver] Retrieving device list
+2018-12-26 23:31:38:053 [ADB] Trying to find a connected android device
+2018-12-26 23:31:38:053 [ADB] Getting connected devices...
+2018-12-26 23:31:38:077 [ADB] 1 device(s) connected
+2018-12-26 23:31:38:077 [AndroidDriver] Using device: 44354f5747553098
+2018-12-26 23:31:38:078 [ADB] Setting device id to 44354f5747553098
+2018-12-26 23:31:38:079 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell getprop ro.build.version.sdk'
+2018-12-26 23:31:38:191 [ADB] Current device property 'ro.build.version.sdk': 26
+2018-12-26 23:31:38:191 [ADB] Device API level: 26
+2018-12-26 23:31:38:192 [AndroidDriver] Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+2018-12-26 23:31:38:192 [AndroidDriver] App file was not listed, instead we're going to run io.selendroid.testapp directly on the device
+2018-12-26 23:31:38:192 [AndroidDriver] Checking whether package is present on the device
+2018-12-26 23:31:38:193 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell pm list packages io.selendroid.testapp'
+2018-12-26 23:31:38:991 [AndroidDriver] Starting Android session
+2018-12-26 23:31:38:991 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 wait-for-device'
+2018-12-26 23:31:39:016 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell echo ping'
+2018-12-26 23:31:39:098 [AndroidDriver] Pushing settings apk to device...
+2018-12-26 23:31:39:099 [ADB] Getting install status for io.appium.settings
+2018-12-26 23:31:39:100 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.settings'
+2018-12-26 23:31:39:219 [ADB] 'io.appium.settings' is installed
+2018-12-26 23:31:39:219 [ADB] Getting package info for 'io.appium.settings'
+2018-12-26 23:31:39:219 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.settings'
+2018-12-26 23:31:39:338 [ADB] Checking whether aapt is present
+2018-12-26 23:31:39:339 [ADB] Using aapt.exe from C:\Users\phild\AppData\Local\Android\sdk\build-tools\28.0.3\aapt.exe
+2018-12-26 23:31:39:358 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+2018-12-26 23:31:39:359 [ADB] There is no need to install/upgrade 'C:\Program Files (x86)\Appium\resources\app\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2018-12-26 23:31:39:359 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell ps'
+2018-12-26 23:31:39:557 [ADB] Device API level: 26
+2018-12-26 23:31:39:558 [ADB] Device API level: 26
+2018-12-26 23:31:39:558 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-26 23:31:40:035 [ADB] Device API level: 26
+2018-12-26 23:31:40:035 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell appops set io.appium.settings android\:mock_location allow'
+2018-12-26 23:31:40:153 [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-12-26 23:31:40:153 [AndroidDriver] Got language: 'null' and country: 'null'
+2018-12-26 23:31:40:154 [Logcat] Starting logcat capture
+2018-12-26 23:31:40:219 [ADB] Getting device platform version
+2018-12-26 23:31:40:220 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell getprop ro.build.version.release'
+2018-12-26 23:31:40:310 [ADB] Current device property 'ro.build.version.release': 8.0.0
+2018-12-26 23:31:40:310 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell wm size'
+2018-12-26 23:31:40:735 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell getprop ro.product.model'
+2018-12-26 23:31:40:809 [ADB] Current device property 'ro.product.model': SM-G965U
+2018-12-26 23:31:40:809 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell getprop ro.product.manufacturer'
+2018-12-26 23:31:40:876 [ADB] Current device property 'ro.product.manufacturer': samsung
+2018-12-26 23:31:40:877 [AndroidDriver] No app sent in, not parsing package/activity
+2018-12-26 23:31:40:877 [AndroidDriver] No app capability. Assuming it is already on the device
+2018-12-26 23:31:40:877 [ADB] Getting install status for io.selendroid.testapp
+2018-12-26 23:31:40:878 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell dumpsys package io.selendroid.testapp'
+2018-12-26 23:31:40:967 [ADB] 'io.selendroid.testapp' is installed
+2018-12-26 23:31:40:968 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell am force-stop io.selendroid.testapp'
+2018-12-26 23:31:41:087 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell pm clear io.selendroid.testapp'
+2018-12-26 23:31:41:642 [AndroidDriver] Performed fast reset on the installed 'io.selendroid.testapp' application (stop and clear)
+2018-12-26 23:31:41:643 [AndroidBootstrap] Watching for bootstrap disconnect
+2018-12-26 23:31:41:643 [ADB] Forwarding system: 4724 to device: 4724
+2018-12-26 23:31:41:643 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 forward tcp\:4724 tcp\:4724'
+2018-12-26 23:31:41:666 [UiAutomator] Starting UiAutomator
+2018-12-26 23:31:41:666 [UiAutomator] Moving to state 'starting'
+2018-12-26 23:31:41:666 [UiAutomator] Parsing uiautomator jar
+2018-12-26 23:31:41:667 [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-12-26 23:31:41:667 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 push 'C:\\Program Files (x86)\\Appium\\resources\\app\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar' /data/local/tmp/'
+2018-12-26 23:31:41:715 [ADB] Attempting to kill all uiautomator processes
+2018-12-26 23:31:41:716 [ADB] Getting all processes with uiautomator
+2018-12-26 23:31:41:716 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell ps'
+2018-12-26 23:31:41:848 [ADB] No 'uiautomator' process has been found
+2018-12-26 23:31:41:848 [UiAutomator] Starting UIAutomator
+2018-12-26 23:31:41:849 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","44354f5747553098","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","io.selendroid.testapp","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-12-26 23:31:42:285 [UiAutomator] Moving to state 'online'
+2018-12-26 23:31:42:289 [AndroidBootstrap] Android bootstrap socket is now connected
+2018-12-26 23:31:42:290 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell dumpsys window'
+2018-12-26 23:31:42:296 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-12-26 23:31:42:395 [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-26 23:31:42:395 [ADB] Device API level: 26
+2018-12-26 23:31:42:395 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell am start -W -n io.selendroid.testapp/.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-26 23:31:43:231 [Appium] New AndroidDriver session created successfully, session b698738c-3d82-42af-a1c5-9df92a9ca8d0 added to master session list
+2018-12-26 23:31:43:232 [BaseDriver] Event 'newSessionStarted' logged at 1545867103232 (15:31:43 GMT-0800 (Pacific Standard Time))
+2018-12-26 23:31:43:233 [W3C (b698738c)] Cached the protocol value 'W3C' for the new session b698738c-3d82-42af-a1c5-9df92a9ca8d0
+2018-12-26 23:31:43:233 [W3C (b698738c)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Galaxy S9+"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceModel":"SM-G965U","deviceManufacturer":"samsung"}}
+2018-12-26 23:31:43:234 [HTTP] <-- POST /wd/hub/session 200 5295 ms - 684
+2018-12-26 23:31:43:234 [HTTP] 
+2018-12-26 23:31:43:268 [HTTP] --> GET /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0
+2018-12-26 23:31:43:268 [HTTP] {}
+2018-12-26 23:31:43:269 [W3C (b698738c)] Calling AppiumDriver.getSession() with args: ["b698738c-3d82-42af-a1c5-9df92a9ca8d0"]
+2018-12-26 23:31:43:277 [W3C (b698738c)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Galaxy S9+"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceModel":"SM-G965U","deviceManufacturer":"samsung"}
+2018-12-26 23:31:43:278 [HTTP] <-- GET /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0 200 10 ms - 616
+2018-12-26 23:31:43:278 [HTTP] 
+2018-12-26 23:31:43:283 [HTTP] --> GET /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0
+2018-12-26 23:31:43:283 [HTTP] {}
+2018-12-26 23:31:43:283 [W3C (b698738c)] Calling AppiumDriver.getSession() with args: ["b698738c-3d82-42af-a1c5-9df92a9ca8d0"]
+2018-12-26 23:31:43:284 [W3C (b698738c)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"Galaxy S9+"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceModel":"SM-G965U","deviceManufacturer":"samsung"}
+2018-12-26 23:31:43:285 [HTTP] <-- GET /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0 200 2 ms - 616
+2018-12-26 23:31:43:285 [HTTP] 
+2018-12-26 23:31:43:291 [HTTP] --> POST /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0/timeouts
+2018-12-26 23:31:43:291 [HTTP] {"implicit":10000}
+2018-12-26 23:31:43:291 [W3C (b698738c)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"b698738c-3d82-42af-a1c5-9df92a9ca8d0"]
+2018-12-26 23:31:43:292 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2018-12-26 23:31:43:293 [BaseDriver] Set implicit wait to 10000ms
+2018-12-26 23:31:43:293 [W3C (b698738c)] Responding to client with driver.timeouts() result: null
+2018-12-26 23:31:43:293 [HTTP] <-- POST /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0/timeouts 200 2 ms - 14
+2018-12-26 23:31:43:294 [HTTP] 
+2018-12-26 23:31:43:297 [HTTP] --> POST /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0/elements
+2018-12-26 23:31:43:297 [HTTP] {"using":"-android uiautomator","value":"UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)"}
+2018-12-26 23:31:43:297 [W3C (b698738c)] Calling AppiumDriver.findElements() with args: ["-android uiautomator","UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)","b698738c-3d82-42af-a1c5-9df92a9ca8d0"]
+2018-12-26 23:31:43:298 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-26 23:31:43:299 [BaseDriver] Waiting up to 10000 ms for condition
+2018-12-26 23:31:43:299 [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)","context":"","multiple":true}}
+2018-12-26 23:31:43:305 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)","context":"","multiple":true}}
+2018-12-26 23:31:43:305 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-12-26 23:31:43:305 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'UiSelector().className("android.widget.LinearLayout").className("android.widget.Button").index(1)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: UiSelector().className("android.widget.LinearLayout").className("android.widget.Button").index(1)
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.LinearLayout"
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.LinearLayout"
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.Button"
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.Button"
+2018-12-26 23:31:43:306 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 1
+2018-12-26 23:31:43:307 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.Button, INDEX=1]
+2018-12-26 23:31:43:307 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.Button, INDEX=1]
+2018-12-26 23:31:43:307 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+2018-12-26 23:31:43:307 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.Button, INDEX=1, INSTANCE=0]
+2018-12-26 23:31:43:760 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+2018-12-26 23:31:43:760 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.Button, INDEX=1, INSTANCE=1]
+2018-12-26 23:31:43:779 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (2)
+2018-12-26 23:31:43:779 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.Button, INDEX=1, INSTANCE=2]
+2018-12-26 23:31:43:786 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (3)
+2018-12-26 23:31:43:787 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.Button, INDEX=1, INSTANCE=3]
+2018-12-26 23:31:43:911 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"},{"ELEMENT":"2"},{"ELEMENT":"3"}]}
+2018-12-26 23:31:43:911 [AndroidBootstrap] Received command result from bootstrap
+2018-12-26 23:31:43:912 [W3C (b698738c)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"1"},{"element-6066-11e4-a52e-4f735466cecf":"2"},{"element-6066-11e4-a52e-4f735466cecf":"3"}]
+2018-12-26 23:31:43:913 [HTTP] <-- POST /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0/elements 200 616 ms - 143
+2018-12-26 23:31:43:913 [HTTP] 
+2018-12-26 23:31:46:923 [HTTP] --> DELETE /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0
+2018-12-26 23:31:46:923 [HTTP] {}
+2018-12-26 23:31:46:924 [W3C (b698738c)] Calling AppiumDriver.deleteSession() with args: ["b698738c-3d82-42af-a1c5-9df92a9ca8d0"]
+2018-12-26 23:31:46:924 [BaseDriver] Event 'quitSessionRequested' logged at 1545867106924 (15:31:46 GMT-0800 (Pacific Standard Time))
+2018-12-26 23:31:46:924 [Appium] Removing session b698738c-3d82-42af-a1c5-9df92a9ca8d0 from our master session list
+2018-12-26 23:31:46:925 [AndroidDriver] Shutting down Android driver
+2018-12-26 23:31:46:926 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell am force-stop io.selendroid.testapp'
+2018-12-26 23:31:47:082 [ADB] Pressing the HOME button
+2018-12-26 23:31:47:082 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell input keyevent 3'
+2018-12-26 23:31:47:541 [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-12-26 23:31:47:546 [AndroidBootstrap] Received command result from bootstrap
+2018-12-26 23:31:47:546 [UiAutomator] Shutting down UiAutomator
+2018-12-26 23:31:47:546 [UiAutomator] Moving to state 'stopping'
+2018-12-26 23:31:47:547 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-12-26 23:31:47:548 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-12-26 23:31:47:548 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-12-26 23:31:47:548 [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-12-26 23:31:47:548 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-12-26 23:31:47:548 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-12-26 23:31:47:549 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-12-26 23:31:47:550 [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2018-12-26 23:31:47:550 [AndroidBootstrap] [UIAUTO STDOUT] Time: 5.288
+2018-12-26 23:31:47:550 [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2018-12-26 23:31:47:550 [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2018-12-26 23:31:47:551 [UiAutomator] UiAutomator shut down normally
+2018-12-26 23:31:47:551 [UiAutomator] Moving to state 'stopped'
+2018-12-26 23:31:47:552 [ADB] Attempting to kill all uiautomator processes
+2018-12-26 23:31:47:552 [ADB] Getting all processes with uiautomator
+2018-12-26 23:31:47:552 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell ps'
+2018-12-26 23:31:47:735 [ADB] No 'uiautomator' process has been found
+2018-12-26 23:31:47:735 [UiAutomator] Moving to state 'stopped'
+2018-12-26 23:31:47:735 [Logcat] Stopping logcat capture
+2018-12-26 23:31:47:739 [ADB] Running 'C:\Users\phild\AppData\Local\Android\sdk\platform-tools\adb.exe -P 5037 -s 44354f5747553098 shell am force-stop io.appium.unlock'
+2018-12-26 23:31:47:852 [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-12-26 23:31:47:852 [BaseDriver] Event 'quitSessionFinished' logged at 1545867107852 (15:31:47 GMT-0800 (Pacific Standard Time))
+2018-12-26 23:31:47:852 [W3C (b698738c)] Received response: null
+2018-12-26 23:31:47:852 [W3C (b698738c)] But deleting session, so not returning
+2018-12-26 23:31:47:852 [W3C (b698738c)] Responding to client with driver.deleteSession() result: null
+2018-12-26 23:31:47:853 [HTTP] <-- DELETE /wd/hub/session/b698738c-3d82-42af-a1c5-9df92a9ca8d0 200 930 ms - 14
+2018-12-26 23:31:47:853 [HTTP] 

@@ -22,12 +22,12 @@ public class TestFindingElements {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
-//        service =  AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
-//                .usingDriverExecutable(new File("C:/Program Files/nodejs/node.exe"))
-//                .withAppiumJS(new File("C:/Program Files (x86)/Appium/resources/app/node_modules/appium/build/lib/main.js"))
-//                .withLogFile(new File(System.getProperty("user.dir")+ "/src/test/resources/logs/logs.txt")));
-//
-//        service.start();
+        service =  AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
+                .usingDriverExecutable(new File("C:/Program Files/nodejs/node.exe"))
+                .withAppiumJS(new File("C:/Program Files (x86)/Appium/resources/app/node_modules/appium/build/lib/main.js"))
+                .withLogFile(new File(System.getProperty("user.dir")+ "/src/test/resources/logs/logs.txt")));
+
+        service.start();
 
 
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -46,13 +46,17 @@ public class TestFindingElements {
         //driver.findElement(MobileBy.xpath("//*[@content-desc='visibleButtonTestCD']")).click();
         //driver.findElement(MobileBy.xpath("//*[contains(@text,'Display text')]")).click();
         //driver.findElement(MobileBy.xpath("//android.widget.Button[contains(@text,'Display text')]")).click();
-        driver.findElement(MobileBy.xpath("//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]")).click();
+        //driver.findElement(MobileBy.xpath("//android.widget.LinearLayout/android.widget.Button[contains(@text,'Display text')]")).click();
+        //driver.findElementsByAndroidUIAutomator("UiSelector().className(\"android.widget.CheckBox\").checked(true)").clear();
+        //System.out.println(driver.findElementsByAndroidUIAutomator("UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)").size());
+        WebElement button = (WebElement) driver.findElementsByAndroidUIAutomator("UiSelector().className(\"android.widget.LinearLayout\").className(\"android.widget.Button\").index(1)").get(1);
+        button.click();
 
         Thread.sleep(3000);
-        //driver.quit();
+        driver.quit();
 
 
-        //service.stop();
+        service.stop();
 
     }
 }
