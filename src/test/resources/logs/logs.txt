@@ -1,0 +1,4 @@
+2018-12-26 22:37:58:090 [Appium] Welcome to Appium v1.10.0
+2018-12-26 22:37:58:091 [Appium] Non-default server args:
+2018-12-26 22:37:58:091 [Appium]   logFile: C:\Users\phild\IdeaProjects\AppiumTesting\src\test\resources\logs\logs.txt
+2018-12-26 22:37:58:105 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
